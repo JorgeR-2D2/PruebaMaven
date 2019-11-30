@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.jrojas</groupId>
-	<artifactId>PruebaModelos</artifactId>
+	<artifactId>PruebaMaven</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>PruebaModelos</name>
+	<name>PruebaMaven</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
