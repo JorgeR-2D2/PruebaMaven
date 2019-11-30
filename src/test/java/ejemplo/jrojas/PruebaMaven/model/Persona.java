@@ -1,32 +1,26 @@
-package com.jrojas.model;
+package ejemplo.jrojas.PruebaMaven.model;
 
-import org.springframework.stereotype.Component;
-
-@Component
-public class PersonaImp implements Persona {
-	
+public class Persona {
 	private String nombre;
 	private int edad;
-	
-	public PersonaImp() {
-		
+	public Persona() {
+		super();
 	}
-
 	public String getNombre() {
 		return nombre;
 	}
-
 	public void setNombre(String nombre) {
 		this.nombre = nombre;
 	}
-
 	public int getEdad() {
 		return edad;
 	}
-
 	public void setEdad(int edad) {
 		this.edad = edad;
 	}
-	
+	@Override
+	public String toString() {
+		return "Persona [nombre=" + nombre + ", edad=" + edad + "]";
+	}
 	
 }
